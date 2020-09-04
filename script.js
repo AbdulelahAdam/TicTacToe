@@ -1,19 +1,6 @@
-<<<<<<< HEAD
-let firstGame = true;
 let playerTurn = false;
 let cellsLeftToFill = 9;
 let pickedCells = new Map();
-let winnerIsP1 = false;
-let winnerIsP2 = false;
-=======
-let playerTurn = false;
-let cellsLeftToFill = 9;
-let pickedCells = new Map();
-
->>>>>>> Final version
-
-
-
 
 function signSize(tableData) {
 
