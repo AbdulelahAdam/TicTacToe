@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(20, 20, 20, .75);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    margin: 70px auto;
+}
+
+footer #dev-name {
+    margin-top: -15px;
+    margin-left: 3px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 75%;
+}
+
+footer #dev-github {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 75%;
+    margin-top: -25px;
+    margin-right: 3px;
+    float: right;
+}
+
+#game-border {
+    width: 800px;
+    height: 600px;
+    background-color: rgba(240, 240, 240, 0.85);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover {
+    cursor: pointer;
+    background-color: rgba(190, 190, 190, 0.85);
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine {
+    text-align: center;
+}
+
+#players {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#plyer {
+    margin: 0px 70px 0px 0px;
+}
+
+.vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
